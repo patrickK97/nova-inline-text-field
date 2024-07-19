@@ -1,39 +1,16 @@
 {
-  "name": "outl1ne/nova-inline-text-field",
-  "description": "A Laravel Nova inline text field.",
-  "keywords": [
-    "laravel",
-    "nova",
-    "text",
-    "inline",
-    "field"
-  ],
-  "license": "MIT",
-  "require": {
-    "php": ">=8.0",
-    "laravel/nova": "^4.12.4"
-  },
-  "autoload": {
-    "psr-4": {
-      "Outl1ne\\NovaInlineTextField\\": "src/"
-    }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Outl1ne\\NovaInlineTextField\\FieldServiceProvider"
-      ]
-    }
-  },
-  "config": {
-    "sort-packages": true
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://nova.laravel.com"
-    }
-  ]
+    "name": "singularit/nova-inline-text-field",
+    "description": "A inline text field for Laravel Nova forked from outl1ne/nova-inline-text-field",
+    "autoload": {
+        "psr-4": {
+            "Singularit\\NovaInlineTextField\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Patrick Kocher",
+            "email": "patrick.kocher@singular-it.de"
+        }
+    ],
+    "require": {}
 }
