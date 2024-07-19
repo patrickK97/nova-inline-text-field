@@ -76,6 +76,8 @@ export default {
           _lensUri: matchedLensPath ? matchedLensPath[1] : null,
           _inlineResourceId: this.field.resourceId,
           _inlineAttribute: this.field.attribute,
+          _inlineRelatedResource: this.field.relatedResource ?? null,
+          _inlineRelatedResourceId: this.field.relatedResourceId ?? null,
           [this.field.attribute]: this.fieldValue,
           extraData: this.field.extraData,
         });
