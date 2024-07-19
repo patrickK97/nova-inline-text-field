@@ -12,5 +12,8 @@
             "email": "patrick.kocher@singular-it.de"
         }
     ],
-    "require": {}
+    "require": {
+      "php": ">=8.0",
+      "laravel/nova": "^4.0"
+    }
 }
